@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Lab_3</title>
+    </head>
+    <body>
+        <table border = "1">
+            <tr>
+                <td colspan = "2">Pizza shop 2.0</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>
+                    <form>
+                        <input></input>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Pizza Topping</td>
+                <td>
+                    <form>
+                        <input type = "radio" name ="pizza" value="Supreme">Supreme</input> <br>
+                        <input type = "radio" name ="pizza" value="Vegetarian">Vegetarian</input> <br>
+                        <input type = "radio" name ="pizza" value="Hawaiian">Hawaiian</input> <br>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Pizza sauce</td>
+                <td>
+                    <select name="sauces">
+                        <option value="Tomato">Tomato</option>
+                        <option value="Spicy">Spicy</option>
+                        <option value="BBQ sauce">BBQ sauce</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Optional Extras</td>
+                <td>
+                    <input type = "checkbox" name = "Extras"> Extra Cheese</input>
+                    <input type = "checkbox" name = "Extras"> Gluten Free Base</input>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Delivery Instructions: <br>
+    
+                    <textarea name="comment" id="comment" placeholder="Не более 200 символов" maxlength="200" cols = "50" rows = "6"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value = "Send my Order">
+                </td>
+            </tr>
+        </table>
+        
+    </body>
