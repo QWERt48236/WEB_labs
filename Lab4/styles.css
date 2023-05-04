@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(43, 43, 43);
+    font-size: 35px;
+    color: white;
+}
+
+.container {
+    display: flex; 
+  }
+
+.container > div {
+    background-color: rgb(105, 105, 105);
+    display: flex; 
+    margin: 1px;
+    width: 40px;
+    height: 35px;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+  }
+  #top {
+    background-image: linear-gradient(rgb(77, 77, 77), rgb(49, 49, 49));
+}
+
+#side{
+    background-color: rgb(255, 153, 0);
+}
