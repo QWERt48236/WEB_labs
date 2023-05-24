@@ -16,6 +16,7 @@ console.log(check_num(n));
 
 
 
+
 function find_prime_num(n)
 {
     var sum_arr = [];
@@ -53,6 +54,11 @@ function find_prime_num(n)
     return sum_arr;
 }
 console.log(find_prime_num(n));
+
+
+
+
+
 
 function number_sum(n)
 {
